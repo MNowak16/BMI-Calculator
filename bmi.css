@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, "Times New Roman";
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+/* Set the chart image as the span's background */
+span#chart {
+    background-image: url("BMI_chart.png");
+    background-repeat: no-repeat;
+    //background-position: center;
+    width: 800px;
+    height: 450px;
+    display: inline-block;
+    position: relative;
+}
+
+/* Style for the person image */
+img.person {
+    position: absolute;
+}

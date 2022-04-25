@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form>
+        <label for="weight">Weight (Pounds): </label>
+        <input id="weight" value="0" type="number" min="80" max="275" step="0.5" required>
+        <br>
+
+        <label for="height">Height (Inches): </label>
+        <input id="height" value="0" type="number" min="56" max="79" step="0.5" required>
+        <br>
+        <button>Calculate My BMI</button>
+    </form>
+
+    <p id="outputBMI">BMI: </p>
+    <p id="outputCat">Category: </p>
+
+    <span id="chart"></span>
+
+    <script defer src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script defer src="code.js"></script>
+</body>
+</html>
